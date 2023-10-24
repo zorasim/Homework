@@ -1,0 +1,191 @@
+body{
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    width:350px;
+    height:200px;
+}
+/*AMERICA*/
+.priv{
+    margin: 0px 40px 20px 0px;
+}
+.priv .stars{
+    position: absolute;
+    top: 3%;
+    left: 1.5%;
+}
+.stars img{
+    width: 155px;
+}
+.america{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.red{ 
+    background-color: red;
+    height: 30px;
+}
+.a-white{
+    background-color: white;
+    height: 30px;
+}
+/*CANADA*/
+.canada{
+    display: flex;
+    margin: 20px;
+}
+.red-sides{
+    background-color: red;
+    height: 200px;
+    width: 150px;
+}
+.white-middle{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.white-middle img{
+    width: 100px;
+    height: 150px;
+    align-self: center;
+}
+/*BASE FLAG DESIGN*/
+.base-flag{
+    display: flex;
+    margin: 20px;
+}
+.collum{
+    width: 116.7px;
+}
+.base-flag-row{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.row{
+    height: 66.7px;
+}
+.white{
+    background-color: white;
+}
+/*FRANCE*/
+.france-blue{
+    background-color: rgb(0,38,84);
+}
+.france-red{
+    background-color: rgb(237,41,57);
+}
+/*ITALIA*/
+.italia-green{
+    background-color: rgb(0,140,69);
+}
+.italia-red{
+    background-color: rgb(205,33,42);
+}
+/*MEXICO*/
+.mexico-red{
+    background-color: rgb(206,17,37);
+}
+.mexico-green{
+    background-color: rgb(0,104,71);
+}
+.mex{
+    display: flex;
+    justify-content: center;
+}
+.mex img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+/*GERMANY*/
+.ger-black{
+    background-color: black;
+}
+.ger-red{
+    background-color: rgb(221, 0,0);
+}
+.ger-yellow{
+    background-color: rgb(255,204,0);
+}
+/*THE NETHERLANDS*/
+.net-blue{
+    background-color: rgb(200,16,46);
+}
+.net-red{
+    background-color: rgb(0,61,165);
+}
+/*JAPAN*/
+.japan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.japan .circle{
+    background-color: rgb(188,0,45);
+    width: 120px;
+    height: 120px;
+    border-radius: 50% ;
+}
+/*GREECE*/
+.greece{
+    margin: 20px;
+}
+.top{
+    background-color: black;
+    width: 350px;
+    height: 100px;
+    display: flex;
+}
+.top .cross{
+    height: 100px;
+    width: 174.7px;
+    position: relative;
+}
+.top .cross .cross-a{
+    position: absolute;
+    width: 18px;
+    height: 100px;
+    left: 43.5%;
+}
+.top  .cross-b{
+    position: absolute;
+    width: 116.7px;
+    height: 18px;
+    top: 40%;
+}
+.stripes{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.stripes .stripe{
+    height: 20px;
+    width: 233.3px;
+}
+.blue{
+    background-color: rgb(0,20,137);
+}
+
+.bottom{
+    background-color: white;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.bottom .b-stripes{
+    height: 20px;
+    width: 350;
+    
+}
+.b-top{
+    margin-top: 20px;
+}
