@@ -6,9 +6,9 @@ window.onload = function(){
         //let password2=document.getElementById("id-password2").value //razgleduvav nesto
         let email=document.getElementById("id-email").value
 
-        console.log('Username: ${username}')
-        console.log('Password: ${password}')
-        console.log('Email: ${email}')
+        console.log(`Username: ${username}`)
+        console.log(`Password: ${password}`)
+        console.log(`Email: ${email}`)
     })
     var passwordComf= function(){
         if(document.getElementById("id-password").value == 
@@ -17,7 +17,7 @@ window.onload = function(){
             document.getElementById("message").innerHTML="Passwords match!"
         }else{
             document.getElementById("message").style.color="Red"
-            document.getElementById("message").innerHTML="Passwords do not match!"
+            document.getElementById("message").innerHTML="Passwords do notmatch!"
         }
     }
 }
