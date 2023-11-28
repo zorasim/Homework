@@ -10,4 +10,14 @@ window.onload = function(){
         console.log('Password: ${password}')
         console.log('Email: ${email}')
     })
+    var passwordComf= function(){
+        if(document.getElementById("id-password").value == 
+        document.getElementById("id-password2").value){
+            document.getElementById("message").style.color="Green"
+            document.getElementById("message").innerHTML="Passwords match!"
+        }else{
+            document.getElementById("message").style.color="Red"
+            document.getElementById("message").innerHTML="Passwords do not match!"
+        }
+    }
 }
